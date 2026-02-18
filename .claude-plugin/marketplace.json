@@ -1,0 +1,25 @@
+{
+  "name": "gstreamer-skills",
+  "owner": {
+    "name": "flejz"
+  },
+  "metadata": {
+    "description": "GStreamer pipeline development skills for Claude Code",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "gstreamer-skills",
+      "description": "Collection of skills for building, debugging, and optimizing GStreamer multimedia pipelines",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/gst-pipeline-builder",
+        "./skills/gst-pipeline-debugger",
+        "./skills/gst-caps-negotiation",
+        "./skills/gst-plugin-finder",
+        "./skills/gst-pipeline-optimizer"
+      ]
+    }
+  ]
+}
